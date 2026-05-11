@@ -1,0 +1,33 @@
+{
+  "name": "backendprac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyakumari0104/tasksmanager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/priyakumari0104/tasksmanager/issues"
+  },
+  "homepage": "https://github.com/priyakumari0104/tasksmanager#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "imagekit": "^6.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1",
+    "moongoose": "^0.0.5",
+    "multer": "^2.1.1"
+  }
+}
