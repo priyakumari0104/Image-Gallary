@@ -1,0 +1,47 @@
+/* Page */
+.posts-page {
+  min-height: 100vh;
+  padding: 30px;
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.posts-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Grid layout */
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.post-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.post-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Caption */
+.post-card p {
+  padding: 12px;
+  font-size: 14px;
+  color: #333;
+}
